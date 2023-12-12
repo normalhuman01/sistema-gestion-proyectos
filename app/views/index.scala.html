@@ -1,0 +1,36 @@
+
+
+<html ng-app="appProy">
+    <head>
+        <title>Pero q ej ejto</title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+        <link rel="stylesheet" href='@routes.Assets.at("lib/bootstrap/css/bootstrap.css")'>
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-sm-12" ui-view></div>
+
+            </div>
+        </div>
+
+
+        <script src='@routes.Assets.at("lib/angularjs/angular.js")' type="text/javascript"></script>
+        <script src='@routes.Assets.at("lib/angular-ui-router/angular-ui-router.js")' type="text/javascript"></script>
+        <script src='@routes.Assets.at("lib/angular-ui-bootstrap/ui-bootstrap-tpls.js")' type="text/javascript"></script>
+        <!-- Services -->
+        <script src="@routes.Assets.at("javascripts/services/apiService.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("javascripts/services/userService.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("javascripts/services/appService.js")" type="text/javascript"></script>
+        <!-- Controllers -->
+        <script src="@routes.Assets.at("javascripts/controllers/dashboardController.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("javascripts/controllers/loginController.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("javascripts/controllers/appController.js")" type="text/javascript"></script>
+        <!-- App -->
+        <script src="@routes.Assets.at("javascripts/app.js")" type="text/javascript"></script>
+
+    </body>
+</html>
