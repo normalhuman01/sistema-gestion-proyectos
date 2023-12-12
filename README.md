@@ -1,6 +1,6 @@
-#Proyecto Scrum 
-## Consideraciones al uso del git y play framework:
+#Scrum Project 
+## Things to keep in mind when working with Git and the Play Framework:
 ---
-* Siempre se tiene que hacer git pull antes de iniciar con el desarrollo , para estar al dia con las actualizaciones del proyecto.
-* Si se hace algun cambio establecer commits cortos y concisos.
-* Cualquier duda o problema informar a los miembros del equipo para avanzar rapidamente.
+* It's essential to start with a 'git pull' to stay up-to-date with project updates before diving into development.
+* When making any changes, make sure to create brief and clear commits.
+* If you encounter any questions or issues, don't hesitate to communicate them to your team members to ensure smooth progress.
